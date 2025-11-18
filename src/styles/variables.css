@@ -1,0 +1,20 @@
+:root {
+    --brand-primary-100: #E0B7BB;
+    --brand-primary-500: #9A1725;
+    --brand-primary: #9A1725;
+    --brand-secondary: #AE4551;
+    --brand-quartenary: #F5E8E9;
+    --text-primary: #252D3C;
+    --text-secondary: #344054;
+    --text-tertiary: #777F8C;
+
+    --light-background-dark: #EBEDEF;
+    --light-background-light: #F9F9FA;
+    --dark-background-darken: #1C1C1C;
+    --border-stroke: #CDD0D5;
+    --border-stroke-secondary: #1018280d;
+
+    --color-red: #ff0000;
+    --color-white: #ffffff;
+    --color-dark: #101010
+}

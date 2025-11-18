@@ -1,0 +1,160 @@
+
+/* ========================================== */
+/* FORMS */
+/* ========================================== */
+
+.form--container,
+.form {
+	display: flex;
+    flex-direction: column;
+}
+
+.form {
+    gap: 1.3rem;
+}
+.form--container {
+    gap: 2rem;
+}
+
+.form--error-message {
+    color: var(--color-red);
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 100%;
+    height: 1rem;
+    margin: -.5rem 0;
+    text-align: left;
+}
+
+.form--heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+.form--item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .68rem;
+    width: 100%;
+}
+.form--label {
+    font-size: 1.4rem;
+    font-weight: 500;
+	color: var(--text-primary);
+    line-height: 1.4;
+	font-family: inherit;
+}
+
+.form--label-flex {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form--input-box {
+    position: relative;
+    width: 100%;
+}
+
+.form--input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    right: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.form--input-icon svg {
+    font-size: 1.6rem;
+    color: #555;
+}
+
+.form--input, .form--select {
+    border: 1.4px solid var(--border-stroke);
+    padding: 1.1rem 1.2rem;
+    width: 100%;
+    border-radius: .48rem;
+    transition: all .35s;
+    font-family: inherit;
+    color: inherit;
+    font-size: 1.4rem;
+    font-weight: 400;
+	background-color: var(--light-background-light);
+}
+
+.form--input:hover, .form--input:focus,
+.form--input-box:hover .form--input {
+    border-color: var(--brand-primary);
+    outline: none;
+}
+
+.form--link {
+	font-size: 1.4rem;
+    font-weight: 500;
+	color: var(--brand-primary);
+	transition: all .3s;
+}
+.form--link:hover {
+	color: var(--brand-secondary);
+}
+
+.form--submit {
+    background-color: var(--brand-primary);
+    border: none;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-white);
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: background-color .35s;
+}
+.form--submit:hover {
+    background-color: var(--brand-primary);
+}
+
+.auth--text {
+	color: var(--text-tertiary);
+	font-size: 1.3rem;
+	line-height: 1.4;
+	text-align: 500;
+}
+.auth--text a:link,
+.auth--text a:visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+
+.phone-input {
+    border: 1.4px solid var(--border-stroke) !important;
+	background-color: var(--light-background-light) !important;
+    font-family: inherit !important;
+    font-weight: 400 !important;
+    font-size: 1.4rem;
+    color: inherit;
+    width: 100% !important;
+	transition: all .3s;
+    padding: 2.1rem !important;
+    padding-left: 4.2rem !important;
+}
+.phone-input:hover,
+.phone-input:focus {
+    border-color: var(--brand-secondary) !important;
+    outline: none;
+}
+.phone-input-button {
+	background-color: transparent !important;
+	border: none !important;
+	padding-left: 0.4rem !important;
+	height: 4rem;
+	margin: 0.2rem 0 !important;
+}
+.phone-input-button {
+	top: 100%;
+	margin-top: 0;
+	border-radius: 0.4rem;
+	padding: 0.2rem !important;
+}
